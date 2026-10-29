@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 30 342 342" role="img" aria-labelledby="title desc">
+  <title id="title">The Living Archive</title>
+  <desc id="desc">Bingkai arsip terbuka dengan monogram A dan garis jejak sejarah menuju masyarakat.</desc>
+  <rect x="30" y="30" width="342" height="342" rx="3" fill="#101e23"/>
+  <g fill="none" stroke-linecap="square">
+    <path d="M52 350V52H338V176M338 266V350H248" stroke="#f2ecdf" stroke-width="11"/>
+    <path d="M52 350h196" stroke="#caab75" stroke-width="11"/>
+    <path d="M80 105h102M80 130h72M80 155h44" stroke="#caab75" stroke-width="6"/>
+    <path d="M110 303L181 107L252 303M145 215h74" stroke="#f2ecdf" stroke-width="11" stroke-linejoin="miter"/>
+    <path d="M80 303C125 267 157 263 190 283C226 305 257 283 286 245C305 220 322 196 347 174" stroke="#caab75" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="347" cy="174" r="17" stroke="#caab75" stroke-opacity=".45" stroke-width="3"/>
+    <path d="M279 314h61M293 330h47" stroke="#caab75" stroke-width="5"/>
+  </g>
+  <circle cx="347" cy="174" r="9" fill="#caab75"/>
+</svg>

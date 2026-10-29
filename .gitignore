@@ -1,0 +1,18 @@
+# Dependencies and generated site
+node_modules/
+dist/
+
+# Local browser sessions and verification artifacts
+.playwright-cli/
+output/*
+!output/http-check.mjs
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">The Living Archive — emblem of an open archive</title>
+  <desc id="desc">Emblem of an archival threshold opening toward the public, with an understated LA monogram.</desc>
+  <defs>
+    <style>
+      .sans { font-family: 'Space Grotesk', 'Arial', sans-serif; }
+      .serif { font-family: 'Playfair Display', 'Georgia', serif; }
+      .mono { font-family: 'DM Mono', 'Consolas', monospace; }
+    </style>
+  </defs>
+
+  <!-- The threshold: a structured archive opening into a living public space -->
+  <g transform="translate(40 56)">
+    <path d="M52 350V52H338V176" fill="none" stroke="#f2ecdf" stroke-width="9" stroke-linecap="square"/>
+    <path d="M338 266V350H248" fill="none" stroke="#f2ecdf" stroke-width="9" stroke-linecap="square"/>
+    <path d="M52 350h196" fill="none" stroke="#caab75" stroke-width="9" stroke-linecap="square"/>
+    <path d="M80 105h102M80 130h72M80 155h44" fill="none" stroke="#caab75" stroke-width="5" stroke-linecap="square"/>
+    <text x="80" y="82" class="mono" font-size="15" letter-spacing="4" fill="#caab75">ARCHIVE / 01</text>
+
+    <!-- Quiet LA hidden in the architecture: L as the left frame, A as the open pages -->
+    <path d="M110 303L181 107L252 303" fill="none" stroke="#f2ecdf" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M145 215h74" fill="none" stroke="#f2ecdf" stroke-width="8" stroke-linecap="square"/>
+
+    <!-- A single evidence line moving from record to people -->
+    <path d="M80 303C125 267 157 263 190 283C226 305 257 283 286 245C305 220 322 196 347 174" fill="none" stroke="#caab75" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="347" cy="174" r="9" fill="#caab75"/>
+    <circle cx="347" cy="174" r="18" fill="none" stroke="#caab75" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M279 314h61M293 330h47" fill="none" stroke="#caab75" stroke-width="4" stroke-linecap="square"/>
+  </g>
+
+  <!-- Quiet editorial wordmark -->
+  <g transform="translate(470 108)">
+    <text class="mono" x="0" y="0" font-size="21" letter-spacing="5" fill="#caab75">SEJARAH · ARSIP · WARGA</text>
+    <text class="sans" x="0" y="105" font-size="76" font-weight="600" letter-spacing="1.5" fill="#f2ecdf">THE LIVING</text>
+    <text class="serif" x="0" y="205" font-size="106" font-style="italic" font-weight="500" fill="#caab75">Archive</text>
+    <path d="M4 242h710" stroke="#f2ecdf" stroke-opacity=".32" stroke-width="2"/>
+    <text class="sans" x="0" y="294" font-size="27" font-weight="500" letter-spacing="4.5" fill="#f2ecdf">DARI BARAK KE MASYARAKAT</text>
+    <text class="sans" x="0" y="344" font-size="18" letter-spacing="1.8" fill="#b9c3bd">PAMERAN DIGITAL INDEPENDEN TENTANG PERUBAHAN INSTITUSI</text>
+  </g>
+</svg>

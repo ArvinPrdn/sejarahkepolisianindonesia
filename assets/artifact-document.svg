@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs><linearGradient id="table" x2="1" y2="1"><stop stop-color="#9d8c6d"/><stop offset="1" stop-color="#596b61"/></linearGradient><filter id="shadow"><feDropShadow dx="10" dy="18" stdDeviation="13" flood-opacity=".25"/></filter></defs>
+  <path fill="url(#table)" d="M0 0h900v650H0z"/>
+  <g transform="translate(213 48) rotate(-7 235 280)" filter="url(#shadow)">
+    <path fill="#f0e6ce" d="M0 0h475v565H0z"/><path fill="none" stroke="#a3987c" d="M28 28h419v509H28z"/>
+    <text x="237" y="77" text-anchor="middle" fill="#79684b" font-family="monospace" font-size="12" letter-spacing="4">CATATAN INSTITUSI</text>
+    <path stroke="#947e57" d="M70 103h335"/>
+    <text x="62" y="164" fill="#30433e" font-family="Georgia,serif" font-size="45">Sebuah awal.</text>
+    <text x="65" y="207" fill="#635c4b" font-family="monospace" font-size="13" letter-spacing="2">1945 / PEMBENTUKAN</text>
+    <g stroke="#a2977f" stroke-width="2"><path d="M65 256h345M65 278h345M65 300h321M65 322h338M65 344h280M65 383h345M65 405h345M65 427h198"/></g>
+    <g transform="translate(247 462) rotate(-8)"><path fill="none" stroke="#865744" stroke-width="2" d="M0 0h160v40H0z"/><text x="80" y="25" text-anchor="middle" font-family="monospace" font-size="11" fill="#865744" letter-spacing="1">REKONSTRUKSI</text></g>
+  </g>
+</svg>

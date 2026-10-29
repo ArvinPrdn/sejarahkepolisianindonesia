@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Dari Barak ke Masyarakat — The Living Archive</title>
+  <desc>Lambang arsip terbuka dengan jejak bukti menuju masyarakat.</desc>
+  <rect width="1200" height="630" fill="#101e23"/>
+  <text x="60" y="65" fill="#caab75" font-family="Arial,sans-serif" font-size="19" letter-spacing="3.5">THE LIVING ARCHIVE</text>
+  <path stroke="#caab75" stroke-opacity=".45" d="M60 96h1080"/>
+  <text x="55" y="236" fill="#f2ecdf" font-family="Arial,sans-serif" font-size="93" font-weight="600" letter-spacing="-4">DARI BARAK</text>
+  <text x="58" y="318" fill="#caab75" font-family="Georgia,serif" font-size="56" font-style="italic" letter-spacing="-1.5">ke Masyarakat</text>
+  <path stroke="#f2ecdf" stroke-opacity=".3" d="M60 356h600"/>
+  <text x="60" y="403" fill="#f2ecdf" font-family="Arial,sans-serif" font-size="22">Sejarah kepolisian Indonesia.</text>
+  <text x="60" y="438" fill="#b9c3bd" font-family="Arial,sans-serif" font-size="22">Perubahan institusi. Pengalaman warga.</text>
+  <g transform="translate(769 139) scale(.94)">
+    <path d="M52 350V52H338V176M338 266V350H248" fill="none" stroke="#f2ecdf" stroke-width="9" stroke-linecap="square"/>
+    <path d="M52 350h196" fill="none" stroke="#caab75" stroke-width="9" stroke-linecap="square"/>
+    <path d="M80 105h102M80 130h72M80 155h44" fill="none" stroke="#caab75" stroke-width="5" stroke-linecap="square"/>
+    <text x="80" y="82" font-family="monospace" font-size="15" letter-spacing="4" fill="#caab75">ARCHIVE / 01</text>
+    <path d="M110 303L181 107L252 303" fill="none" stroke="#f2ecdf" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M145 215h74" fill="none" stroke="#f2ecdf" stroke-width="8" stroke-linecap="square"/>
+    <path d="M80 303C125 267 157 263 190 283C226 305 257 283 286 245C305 220 322 196 347 174" fill="none" stroke="#caab75" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="347" cy="174" r="9" fill="#caab75"/>
+    <circle cx="347" cy="174" r="18" fill="none" stroke="#caab75" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M279 314h61M293 330h47" fill="none" stroke="#caab75" stroke-width="4" stroke-linecap="square"/>
+  </g>
+  <path stroke="#caab75" stroke-opacity=".45" d="M60 543h1080"/>
+  <text x="60" y="588" fill="#caab75" font-family="monospace" font-size="14" letter-spacing="2">PAMERAN DIGITAL INDEPENDEN · 7 RUANG PAMER</text>
+  <text x="1140" y="588" text-anchor="end" fill="#b9c3bd" font-family="monospace" font-size="14" letter-spacing="2">2026</text>
+</svg>

@@ -1,0 +1,106 @@
+{
+  "pageid": 105608003,
+  "ns": 6,
+  "title": "File:Politie kantoor in Nederlands-Indië, KITLV 141960.tiff",
+  "imagerepository": "local",
+  "imageinfo": [
+    {
+      "size": 60587746,
+      "width": 5224,
+      "height": 3864,
+      "pagecount": 1,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff/lossy-page1-1280px-Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 1200,
+      "thumbheight": 888,
+      "responsiveUrls": {
+        "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff/lossy-page1-3840px-Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff/lossy-page1-1280px-Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 1200,
+        "height": 888,
+        "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff/lossy-page1-3840px-Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Politie_kantoor_in_Nederlands-Indi%C3%AB%2C_KITLV_141960.tiff?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Politie_kantoor_in_Nederlands-Indi%C3%AB,_KITLV_141960.tiff",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=105608003",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-05-21 13:11:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Politie kantoor in Nederlands-Indië, KITLV 141960",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Unknown date|Southeast Asian & Caribbean Images (KITLV), Leiden University Library",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<br>Title: Politie kantoor in Nederlands-Indië<br>Shelfmark: KITLV 141960<br>Subject (topical): Offices<br>Police<br>Subject (geographic): Indonesia<br>Language: No linguistic content<br>Country: No place, unknown, or undetermined<br>Published/created: [Circa 1930]<br>Persistent URL: <a rel=\"nofollow\" class=\"external free\" href=\"http://hdl.handle.net/1887.1/item:827282\">http://hdl.handle.net/1887.1/item:827282</a><br>: 2008.<br>Extent: Digital image<br><br><br>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Unknown date",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://hdl.handle.net/1887.1/item:827282\">http://hdl.handle.net/1887.1/item:827282</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    }
+  ]
+}

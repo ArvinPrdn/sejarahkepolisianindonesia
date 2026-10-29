@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#435a58"/><stop offset="1" stop-color="#1c3034"/></linearGradient><filter id="s"><feDropShadow dx="10" dy="16" stdDeviation="15" flood-opacity=".3"/></filter></defs>
+  <path fill="url(#bg)" d="M0 0h900v650H0z"/>
+  <g transform="translate(123 66) rotate(5 320 245)" filter="url(#s)">
+    <path fill="#e4dbc4" d="M0 0h650v505H0z"/>
+    <text x="35" y="52" font-family="monospace" font-size="11" letter-spacing="3" fill="#6d6754">RUANG PUBLIK / CATATAN KURATORIAL</text>
+    <path stroke="#6d6754" d="M35 75h580"/>
+    <text x="35" y="145" font-family="Georgia,serif" font-size="56" fill="#263d3b">Siapa yang</text>
+    <text x="35" y="208" font-family="Georgia,serif" font-size="56" fill="#263d3b">didengar?</text>
+    <path stroke="#8a7a59" d="M35 235h580"/>
+    <g stroke="#a29980" stroke-width="2"><path d="M35 270h265M35 292h265M35 314h240M35 336h265M35 358h250M35 380h265M35 402h180M335 270h280M335 292h280M335 314h260M335 336h280M335 358h250M335 380h280M335 402h190"/></g>
+    <text x="35" y="467" font-family="monospace" font-size="11" fill="#6d6754" letter-spacing="2">ILUSTRASI EDITORIAL · BUKAN KLIPING ASLI</text>
+  </g>
+</svg>

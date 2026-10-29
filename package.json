@@ -1,0 +1,14 @@
+{
+  "name": "living-archive-museum",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Dari Barak ke Masyarakat — museum digital interaktif.",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "check": "node --check script.js && node --check content.mjs && node --check render-content.mjs && node --check server.mjs && node --check build.mjs",
+    "test": "node output/http-check.mjs",
+    "test:http": "node output/http-check.mjs"
+  }
+}

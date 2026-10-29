@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">The Living Archive — archival threshold mark</title>
+  <desc id="desc">An open archival frame and a continuous evidence line moving from rigid records toward a public circle.</desc>
+  <rect width="800" height="800" fill="none"/>
+  <!-- The archive is an open threshold, not a shield. -->
+  <path d="M116 660V140H660" fill="none" stroke="#caab75" stroke-width="18" stroke-linecap="square"/>
+  <path d="M116 660H355" fill="none" stroke="#caab75" stroke-width="18" stroke-linecap="square"/>
+  <path d="M155 205H255M155 238H255" stroke="#f2ecdf" stroke-width="8" opacity=".7"/>
+  <!-- Layered records / the institutional past. -->
+  <path d="M184 552V286M229 552V260M274 552V318" fill="none" stroke="#f2ecdf" stroke-width="22" stroke-linecap="square"/>
+  <path d="M184 586H274" fill="none" stroke="#caab75" stroke-width="8"/>
+  <!-- The evidence line passes through the threshold and opens to the public. -->
+  <path d="M150 552C236 552 276 507 326 461C380 411 416 336 481 299C536 267 582 267 641 297" fill="none" stroke="#caab75" stroke-width="14" stroke-linecap="round"/>
+  <!-- A quiet A-shaped aperture, discovered in the negative space. -->
+  <path d="M324 552L399 298L475 552M350 466H450" fill="none" stroke="#f2ecdf" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- Public endpoint / conversation, deliberately outside the frame. -->
+  <circle cx="650" cy="302" r="31" fill="#101e23" stroke="#caab75" stroke-width="12"/>
+  <circle cx="650" cy="302" r="7" fill="#f2ecdf"/>
+  <!-- archival index -->
+  <text x="116" y="716" fill="#caab75" font-family="monospace" font-size="18" letter-spacing="5">ARCHIVE / 01</text>
+</svg>

@@ -1,6 +1,7 @@
 # Dependencies and generated site
 node_modules/
 dist/
+.vercel/
 
 # Local browser sessions and verification artifacts
 .playwright-cli/

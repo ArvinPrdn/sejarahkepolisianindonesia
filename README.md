@@ -30,6 +30,12 @@ Alamat juga dapat diberikan melalui `SITE_URL`. Gunakan alamat nyata dengan prot
 
 Jika memakai server Node untuk alamat publik, atur `SITE_URL` pada alamat final dan pasang server di belakang pengelola HTTPS. Tanpa `SITE_URL`, server hanya menerima Host lokal. Server lokal menyediakan metadata absolut dari alamat permintaan; metadata tidak bergantung pada JavaScript peramban.
 
+## Publikasi ke Vercel
+
+Impor repositori GitHub ke Vercel. `vercel.json` mengatur build `npm run build`, output `dist`, dan framework statis. Halaman `404.html` di hasil build menjadi halaman tidak ditemukan; tidak perlu menjalankan `server.mjs` di Vercel.
+
+Metadata publikasi menggunakan `SITE_URL` bila diatur, atau domain produksi dari `VERCEL_PROJECT_PRODUCTION_URL`. Folder `.vercel/` berisi pengaturan koneksi lokal dan tidak disimpan di Git.
+
 ## Pemeriksaan
 
 ```sh

@@ -91,5 +91,8 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   if (index >= 0 && !args[index + 1]) throw new Error('Isi alamat situs setelah --url.');
   const unknown = args.filter((_, position) => position !== index && position !== index + 1);
   if (index < 0 && args.length || index >= 0 && unknown.length) throw new Error('Gunakan node build.mjs [--url ALAMAT_SITUS].');
-  await buildSite(index >= 0 ? args[index + 1] : process.env.SITE_URL);
+  const productionUrl = process.env.SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : undefined);
+  await buildSite(index >= 0 ? args[index + 1] : productionUrl);
 }

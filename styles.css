@@ -1104,11 +1104,6 @@ p {
   margin:0;
 }
 
-.artifact-arrow {
-  color:var(--gold);
-  font-size:25px;
-}
-
 /* Reform lenses and evidence. */
 .reform-section {
   border-top:1px solid var(--line);
@@ -2006,7 +2001,9 @@ p {
   height:44px;
   border:1px solid var(--line);
   background:var(--navy);
-  font-size:23px;
+  padding-inline:12px;
+  font:10px var(--mono);
+  letter-spacing:.03em;
 }
 
 .viewer-nav:hover {
@@ -2015,7 +2012,8 @@ p {
 }
 
 .viewer-nav span {
-  display:none;
+  display:inline;
+  margin:0 5px;
 }
 
 .viewer-photo {
@@ -2543,10 +2541,6 @@ p {
     font-size:21px;
   }
 
-  .artifact-arrow {
-    display:none;
-  }
-
   .reform-explorer {
     grid-template-columns:1fr;
   }
@@ -2876,10 +2870,6 @@ p {
 
   .artifact-card h3 {
     font-size:28px;
-  }
-
-  .artifact-arrow {
-    display:block;
   }
 
   .reform-intro h2 {

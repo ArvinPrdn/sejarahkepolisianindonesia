@@ -1,7 +1,7 @@
 import { periods, artifacts, reformLenses, evidence, roadmap } from './content.mjs';
 
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-const sourceLink = (href, label = 'Baca sumber') => `<a class="text-link" href="${escapeHtml(href)}">${escapeHtml(label)} <span aria-hidden="true">↗</span></a>`;
+const sourceLink = (href, label = 'Baca sumber') => `<a class="text-link" href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
 
 function renderPeriodFallback() {
   return `<div class="static-fallback static-periods">${periods.map((p, i) => `<details${i === 0 ? ' open' : ''}><summary><span>${escapeHtml(p.year)}</span> ${escapeHtml(p.title)}</summary><p>${escapeHtml(p.summary)}</p><p class="source-note">${escapeHtml(p.source)}</p>${sourceLink(p.sourceHref)}</details>`).join('')}</div>`;

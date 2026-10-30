@@ -1,4 +1,4 @@
-# The Living Archive — Dari Barak ke Masyarakat
+# The Living Archive — Ujian Panjang Tribrata
 
 Pameran digital independen untuk membaca sejarah kepolisian Indonesia, perubahan institusi, dan pengalaman masyarakat. Proyek pendidikan ini bukan situs resmi Polri dan bukan kanal pengaduan.
 

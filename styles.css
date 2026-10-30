@@ -445,6 +445,18 @@ p {
   white-space:nowrap;
 }
 
+.wall-title--long {
+  max-width:620px;
+  font-size:clamp(42px,4.65vw,72px);
+  line-height:.98;
+  letter-spacing:-.055em;
+}
+
+.wall-title--long em {
+  font-size:clamp(30px,3.25vw,48px);
+  margin-top:.1em;
+}
+
 .wall-dek {
   max-width:310px;
   margin:26px 0 0;
@@ -1913,12 +1925,14 @@ p {
   z-index:120;
   overflow:auto;
   background:#101f23;
+  overscroll-behavior:contain;
 }
 
 .frame-viewer-backdrop {
   position:fixed;
   inset:0;
-  background:radial-gradient(ellipse at 25% 40%,#29403f,transparent 60%);
+  background:radial-gradient(ellipse at 25% 40%,#29403f,transparent 60%),rgba(16,31,35,.96);
+  backdrop-filter:blur(8px);
 }
 
 .frame-viewer-inner {
@@ -1950,8 +1964,42 @@ p {
   font-size:25px;
 }
 
+.viewer-nav-dock {
+  position:fixed;
+  left:50%;
+  bottom:26px;
+  z-index:4;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  transform:translateX(-50%);
+  padding:8px;
+  border:1px solid rgba(222,204,167,.25);
+  background:rgba(16,31,35,.92);
+  box-shadow:0 18px 35px rgba(0,0,0,.22);
+  backdrop-filter:blur(14px);
+}
+
+.viewer-nav-status {
+  display:grid;
+  min-width:120px;
+  gap:3px;
+  text-align:center;
+}
+
+.viewer-nav-status strong {
+  color:var(--paper);
+  font:11px var(--mono);
+  letter-spacing:.08em;
+}
+
+.viewer-nav-status small {
+  color:var(--muted);
+  font:10px var(--mono);
+}
+
 .viewer-nav {
-  position:absolute;
+  position:static;
   top:50%;
   z-index:3;
   width:44px;
@@ -1966,12 +2014,8 @@ p {
   color:var(--ink);
 }
 
-.viewer-nav--prev {
-  left:2vw;
-}
-
-.viewer-nav--next {
-  right:2vw;
+.viewer-nav span {
+  display:none;
 }
 
 .viewer-photo {
@@ -2004,6 +2048,10 @@ p {
   font:500 clamp(40px,4.4vw,66px)/1.08 var(--serif);
   letter-spacing:-.045em;
   margin:0 0 25px;
+}
+
+.viewer-copy {
+  max-width:620px;
 }
 
 .viewer-copy>p:not(.eyebrow) {
@@ -2102,6 +2150,10 @@ p {
 
   .wall-title {
     font-size:8.5vw;
+  }
+
+  .wall-title--long {
+    font-size:clamp(44px,5.4vw,66px);
   }
 
   .wall-title em {
@@ -2279,6 +2331,15 @@ p {
 
   .wall-title {
     font-size:clamp(72px,13vw,105px);
+  }
+
+  .wall-title--long {
+    max-width:680px;
+    font-size:clamp(42px,8.8vw,70px);
+  }
+
+  .wall-title--long em {
+    font-size:clamp(30px,6.1vw,48px);
   }
 
   .wall-title em {
@@ -2582,27 +2643,39 @@ p {
   .frame-viewer-inner {
     grid-template-columns:1fr;
     gap:40px;
-    padding:100px 8vw 100px;
+    align-items:start;
+    padding:92px 6vw calc(140px + env(safe-area-inset-bottom));
   }
 
   .viewer-photo {
+    width:100%;
     min-height:0;
     aspect-ratio:4/3;
-    max-height:500px;
+    max-height:52svh;
+    border-width:11px;
+    outline-width:6px;
   }
 
-  .viewer-nav {
-    position:fixed;
-    top:auto;
-    bottom:20px;
+  .viewer-nav-dock {
+    width:min(92vw,430px);
+    justify-content:space-between;
+    bottom:max(14px,env(safe-area-inset-bottom));
   }
 
-  .viewer-nav--prev {
-    left:6vw;
+  .viewer-nav-dock .viewer-nav {
+    position:static;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    width:auto;
+    min-width:44px;
+    padding-inline:10px;
   }
 
-  .viewer-nav--next {
-    right:6vw;
+  .viewer-nav-dock .viewer-nav span {
+    display:inline;
+    margin:0 5px;
+    font:10px var(--mono);
   }
 
   .frame-viewer-close {
@@ -2614,6 +2687,9 @@ p {
 
   .viewer-copy {
     max-width:680px;
+    padding:22px 20px 24px;
+    border:1px solid rgba(222,204,167,.2);
+    background:rgba(20,37,42,.78);
   }
 
   .modal-card {
@@ -3077,9 +3153,9 @@ p {
 .library-hero h1 em {color:var(--gold-light)}
 .library-hero>p:not(.eyebrow) {color:var(--muted);max-width:720px}
 .library-hero .library-updated {margin:28px 0 0;font:11px/1.8 var(--mono);letter-spacing:.05em}
-.library-nav {display:flex;flex-wrap:wrap;gap:8px 25px;padding:24px 0;margin:40px 0 10px;border-block:1px solid var(--line)}
+.library-nav {display:flex;flex-wrap:wrap;gap:8px 25px;padding:24px 0;margin:40px 0 10px;border-block:1px solid var(--line);position:sticky;top:0;z-index:10;background:rgba(16,31,35,.94);backdrop-filter:blur(14px)}
 .library-nav a {font-size:13px;min-height:40px;display:flex;align-items:center;color:var(--gold-light);text-decoration:underline;text-underline-offset:5px}
-.library-section {padding:60px 0 20px;scroll-margin-top:25px}
+.library-section {padding:60px 0 20px;scroll-margin-top:95px}
 .library-section+.library-section {margin-top:25px;border-top:1px solid var(--line)}
 .library-section h2 {font:500 clamp(30px,3.5vw,43px)/1.2 var(--serif);letter-spacing:-.035em;margin:0 0 25px;max-width:870px}
 .library-section>p {max-width:900px;color:var(--muted)}
@@ -3111,7 +3187,8 @@ p {
 .library-note>strong {display:block;color:var(--paper);margin-bottom:10px}
 .anchor-alias {display:block;scroll-margin-top:25px}
 .photo-reference-grid {display:grid;gap:28px;margin:30px 0}
-.photo-reference-card {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);margin:0;border:1px solid var(--line);background:#14252a;scroll-margin-top:25px}
+.photo-reference-card {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);margin:0;border:1px solid var(--line);background:#14252a;scroll-margin-top:95px;transition:border-color .25s,transform .25s,box-shadow .25s}
+.photo-reference-card:hover,.photo-reference-card:focus-within {border-color:rgba(202,171,117,.65);transform:translateY(-3px);box-shadow:0 18px 35px rgba(0,0,0,.18)}
 .photo-reference-image {width:100%;height:auto;align-self:start;background:var(--paper);object-fit:contain}
 .photo-reference-copy {padding:28px;min-width:0}
 .photo-reference-copy .reference-meta {grid-template-columns:1fr;gap:12px;margin:20px 0}
@@ -3175,6 +3252,7 @@ p {
   .library-shell {padding-top:45px}
   .library-nav {gap:5px 20px;margin-top:30px;padding-block:16px}
   .library-section {padding-top:40px}
+  .library-section {scroll-margin-top:150px}
   .photo-reference-card {grid-template-columns:1fr}
   .photo-reference-image {max-height:480px}
   .modal-card {grid-template-columns:1fr}
@@ -3194,6 +3272,8 @@ p {
   .frame-wall {padding-top:35px}
   .wall-copy .eyebrow {font-size:10px}
   .wall-dek {font-size:15px}
+  .wall-title--long {font-size:clamp(36px,10.2vw,56px);line-height:1.01}
+  .wall-title--long em {font-size:clamp(28px,7.7vw,42px)}
   .frame-caption small {font-size:10px}
   .gallery-controls p {font-size:10px}
   .intro-band {padding-block:55px}
@@ -3219,6 +3299,9 @@ p {
   .sources-bottom .button {width:100%;font-size:12px}
   .footer-meta {max-width:100%}
   .viewer-copy h2 {font-size:36px}
+  .viewer-nav-dock {gap:6px;padding:6px}
+  .viewer-nav-status {min-width:88px}
+  .viewer-nav-status small {font-size:9px}
   .viewer-photo-index {font-size:10px;left:6px;bottom:6px}
   .reference-card {padding:22px}
   .reference-meta {grid-template-columns:1fr;gap:16px}

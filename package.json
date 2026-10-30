@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "description": "Dari Barak ke Masyarakat — museum digital interaktif.",
+  "description": "Ujian Panjang Tribrata — museum digital interaktif tentang sejarah dan reformasi Polri menuju 2045.",
   "scripts": {
     "start": "node server.mjs",
     "build": "node build.mjs",

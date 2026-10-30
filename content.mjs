@@ -110,5 +110,12 @@ Object.assign(frameStories[3], {
   credit: 'BxHxTxCx (using album) · Flickr / Wikimedia Commons · CC BY-SA 2.0. Foto diperkecil; tepi gambar dapat terpotong pada bingkai. Adaptasi mengikuti lisensi yang sama.',
   sourceHref: 'sources.html#photo-public-service'
 });
+Object.assign(frameStories[4], {
+  meta: 'ARSIP / 05 · JAKARTA, 11 SEPTEMBER 2016', title: 'Reformasi di ruang publik',
+  image: 'assets/photos/jakarta-traffic-2016.jpg', alt: 'Polisi mengatur lalu lintas di Jakarta pada 11 September 2016, dokumentasi BxHxTxCx.',
+  copy: 'Reformasi baru terasa ketika mandat hadir dalam ruang publik. Foto Jakarta pada 11 September 2016 ini menjadi pengantar untuk membicarakan pelayanan, penjelasan, dan perlakuan yang dialami warga sehari-hari. Satu foto tidak menyimpulkan mutu layanan secara keseluruhan.',
+  credit: 'BxHxTxCx (using album) · Flickr / Wikimedia Commons · CC BY-SA 2.0. Foto diperkecil; tepi gambar dapat terpotong pada bingkai. Adaptasi mengikuti lisensi yang sama.',
+  sourceHref: 'sources.html#photo-public-service'
+});
 Object.assign(periods[0], {image: frameStories[0].image, alt: frameStories[0].alt});
 Object.assign(periods[3], {image: frameStories[3].image, alt: frameStories[3].alt});
